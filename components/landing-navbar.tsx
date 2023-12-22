@@ -14,7 +14,6 @@ export default function LandingNavBar() {
           HeyMen
         </div>
       </Link>
-
       <LandingMenu />
       <Button>
         Get Started

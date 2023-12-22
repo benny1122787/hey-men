@@ -20,25 +20,25 @@ export default function LandingMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         {items.map((item) => (
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>{item.triggerTitle}</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul>
-                {item.content.map((content) => (
-                  <ListItem
-                    key={content.title}
-                    title={content.title}
-                    href={content.href}
-                  >
-                  </ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+            <NavigationMenuItem key={item.triggerTitle}>
+              <NavigationMenuTrigger>{item.triggerTitle}</NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul>
+                  {item.content.map((content) => (
+                    <ListItem
+                      key={content.title}
+                      title={content.title}
+                      href={content.href}
+                    >
+                    </ListItem>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
         ))}
 
-        <NavigationMenuItem>
-          <Link href="/">
+        <NavigationMenuItem key="Pricing">
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Pricing
             </NavigationMenuLink>
