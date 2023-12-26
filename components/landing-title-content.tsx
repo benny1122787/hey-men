@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { Button } from "./ui/button"
 
 export default function LandingTitleContent() {
@@ -11,13 +12,15 @@ export default function LandingTitleContent() {
         <div className="py-4 line-clamp-2 text-4xl pl-24 pr-24 ml-24 mr-24">
           Effortlessly produce studio quality videos with AI-generated avatars and voices.
         </div>
-        <Button>
-          Get started for free
-        </Button>
+        <Link href="/home">
+          <Button>
+            Get started for free
+          </Button>
+        </Link>
         <div >
           No credit card needed
         </div>
       </div>
-    </div>
+    </div >
   )
 }

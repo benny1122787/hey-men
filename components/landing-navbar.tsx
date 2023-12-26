@@ -6,7 +6,7 @@ import LandingMenu from "@/components/landing-menu";
 export default function LandingNavBar() {
   return (
     <div className="p-4 bg-transparent flex items-center justify-between">
-      <Link href="/dashboard" className="flex items-center">
+      <Link href="/home" className="flex items-center">
         <div className="relative h-8 w-8">
           <Image fill alt="Logo" src="/logo.png" />
         </div>
@@ -15,9 +15,11 @@ export default function LandingNavBar() {
         </div>
       </Link>
       <LandingMenu />
-      <Button>
-        Get Started
-      </Button>
+      <Link href="/home" className="flex items-center">
+        <Button>
+          Get Started
+        </Button>
+      </Link>
     </div>
   )
 }
