@@ -1,4 +1,4 @@
-import { Home } from "lucide-react"
+import { Home , PanelTop, CircleUserRound, AudioLines, Youtube, FolderUp} from "lucide-react"
 import Link from "next/link"
 
 const pages = [
@@ -9,34 +9,34 @@ const pages = [
   },
   {
     label: "Template",
-    icon: Home,
+    icon: PanelTop,
     href: "/template",
   },
   {
     label: "Avatar",
-    icon: Home,
+    icon: CircleUserRound,
     href: "/avatar",
   },
   {
     label: "Voice",
-    icon: Home,
+    icon: AudioLines,
     href: "/voice",
   },
   {
     label: "Video",
-    icon: Home,
+    icon: Youtube,
     href: "/video",
   },
   {
     label: "Asset",
-    icon: Home,
+    icon: FolderUp,
     href: "/asset",
   }
 ]
 
 export default function Sidebar() {
   return (
-      <div className="flex flex-col h-full space-y-1">
+      <div className="flex flex-col space-y-4 justify-start p-10 ">
         {pages.map((page) => (
           <Link
             href={page.href}
@@ -49,6 +49,6 @@ export default function Sidebar() {
           </Link>
 
         ))}
-      </div>
+      </div>      
   )
 }
