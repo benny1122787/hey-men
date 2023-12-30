@@ -1,6 +1,7 @@
 import LandingNavBar from "@/components/landing-navbar"
 import LandingTitleContent from "@/components/landing-title-content"
 import ADMarquee from "@/components/marquee"
+import VideoPlayer from "@/components/videoplayer"
 
 export default function LandingPage() {
   return (
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <LandingNavBar />
       <LandingTitleContent />
       <ADMarquee />
+      <VideoPlayer/>
     </div>
   )
 }
