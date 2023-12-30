@@ -5,7 +5,7 @@ import { Button } from "./ui/button"
 
 export default function LandingTitleContent() {
   return (
-    <div >
+    <div>
       <div className="text-center py-24">
         <h1 className="text-purple-500 text-6xl">AI-powered video</h1>
         <h2 className="text-6xl">creations at scale</h2>

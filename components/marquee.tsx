@@ -55,7 +55,7 @@ const ads = [
 
 export default function ADMarquee() {
   return (
-    <div>
+    <div >
       <Marquee autoFill className="h-24" direction="right" speed={50} delay={0} gradient gradientWidth={128}>
         {ads.map((ad) => (
           <Link key={ad.label} href={ad.href}>
