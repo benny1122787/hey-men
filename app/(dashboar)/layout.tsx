@@ -8,9 +8,7 @@ export default function HomePage({
 }) {
   return (
     <div className="flex">
-      <div className="bg-gray-800 p-8 fixed w-full top-0 z-10">
-        <Navbar />
-      </div>
+      <Navbar />
       <div className="hidden h-full md:flex md:w-52 md:flex-col md:fixed md:inset-y-16 bg-green-500">
         <Sidebar />
       </div>

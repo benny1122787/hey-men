@@ -9,7 +9,7 @@ export default function LandingPage() {
       <LandingNavBar />
       <LandingTitleContent />
       <ADMarquee />
-      <VideoPlayer/>
+      <VideoPlayer/>      
     </div>
   )
 }
