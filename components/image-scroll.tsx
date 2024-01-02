@@ -60,37 +60,37 @@ export function ImageScroll() {
       <ParallaxProvider>
         <Parallax speed={20} className="absolute top-24 left-60">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-1.webp" alt="pwc" width={360} height={0} />
+            <Image src="/scroll-1.webp" alt="pwc" width={360} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={20} className="absolute top-0 right-12">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-2.webp" alt="pwc" width={360} height={0} />
+            <Image src="/scroll-2.webp" alt="pwc" width={360} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={40} className="absolute top-48 left-12">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-3.webp" alt="pwc" width={160} height={0} />
+            <Image src="/scroll-3.webp" alt="pwc" width={160} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={30} className="absolute top-72 right-12">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-4.webp" alt="pwc" width={360} height={0} />
+            <Image src="/scroll-4.webp" alt="pwc" width={360} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={20} className="absolute bottom-24 left-72">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-5.webp" alt="pwc" width={360} height={0} />
+            <Image src="/scroll-5.webp" alt="pwc" width={360} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={10} className="absolute bottom-12 right-48">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-6.webp" alt="pwc" width={120} height={0} />
+            <Image src="/scroll-6.webp" alt="pwc" width={120} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
         <Parallax speed={30} className="absolute top-36 right-12">
           <Link href="https://www.wix.com/">
-            <Image src="/scroll-7.webp" alt="pwc" width={120} height={0} />
+            <Image src="/scroll-7.webp" alt="pwc" width={120} height={0} className="rounded-lg"/>
           </Link>
         </Parallax>
       </ParallaxProvider>

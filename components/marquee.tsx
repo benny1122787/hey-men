@@ -55,11 +55,11 @@ const ads = [
 
 export default function ADMarquee() {
   return (
-    <div >
-      <Marquee autoFill className="h-24" direction="right" speed={50} delay={0} gradient gradientWidth={128}>
+    <div className="mx-auto w-3/4 h-24">
+      <Marquee autoFill direction="right" speed={50} delay={0} gradient gradientWidth={128}>
         {ads.map((ad) => (
           <Link key={ad.label} href={ad.href}>
-            <Image src={ad.src} alt={ad.label} width={80} height={0}/>
+            <Image src={ad.src} alt={ad.label} width={80} height={0} />
           </Link>
         ))}
       </Marquee>
